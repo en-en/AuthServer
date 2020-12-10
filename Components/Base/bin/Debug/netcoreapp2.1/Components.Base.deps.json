@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Components.Base/1.0.0": {
+        "dependencies": {
+          "Components.Tools": "1.0.0"
+        },
+        "runtime": {
+          "Components.Base.dll": {}
+        }
+      },
+      "Components.Tools/1.0.0": {
+        "runtime": {
+          "Components.Tools.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Components.Base/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Components.Tools/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
